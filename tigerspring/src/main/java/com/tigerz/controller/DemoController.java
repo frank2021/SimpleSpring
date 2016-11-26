@@ -119,4 +119,10 @@ public class DemoController {
 			@PathVariable(value = "id") int id) {
 		return null;
 	}
+	
+	//测试JSP文件是如何变成Java文件的
+	@RequestMapping(value = "/form")
+	public String testFrom(){
+		return "formtest";
+	}
 }
